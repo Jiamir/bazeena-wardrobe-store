@@ -34,7 +34,7 @@ export default function Favorites() {
           display: flex;
           flex-direction: column;
           padding: 0;
-          width: 1400px;
+          width: 1150px;
           height: 550px;
         }
 
