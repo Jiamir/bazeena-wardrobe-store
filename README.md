@@ -1,12 +1,27 @@
-# React + Vite
+# Bazeena Wardrobe Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ReactJS-based elegant women's wardrobe store with full product management capabilities, showcasing CRUD operations and state management using Redux Toolkit.
 
-Currently, two official plugins are available:
+## Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add New Products: name, description, price, and image (via upload).
+- View Products: displayed in a responsive grid with images and details.
+- Edit/Update Products: via an intuitive edit form.
+- Delete Products.
+- Search Products: by name with a real-time filter.
+- Mark as Favorite: toggling with visual indication.
+- Persist favorite status: even after page refresh.
+- Sort products: by new/old and price.
+- Routing implemented for:
+  - `/` - Product List View
+  - `/add` - Add Product Form
+  - `/edit-product` - Edit Product Form
+  - `/favorites` - Favorites
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run the App
+Clone the repository, navigate to the folder, install dependencies, and start the app:
+```bash
+git clone https://github.com/yourusername/bazeena-wardrobe-store.git
+cd bazeena-wardrobe-store
+npm install
+npm start
